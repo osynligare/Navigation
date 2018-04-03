@@ -33,7 +33,7 @@ public partial class Samples_MapClickEvent : System.Web.UI.Page
             GoogleMapForASPNet1.GoogleMapObject.ZoomLevel = 20;
 
             //Specify Center Point for map. Map will be centered on this point.
-            GoogleMapForASPNet1.GoogleMapObject.CenterPoint = new GooglePoint("1", -6.921912, 107.606910);
+            GoogleMapForASPNet1.GoogleMapObject.CenterPoint = new GooglePoint("1", -6.892943, 107.610170);
 
         }
     }
@@ -44,7 +44,7 @@ public partial class Samples_MapClickEvent : System.Web.UI.Page
         //Print clicked map positions
         lblPushpin1.Text = "(" + dLat.ToString() + "," + dLng.ToString() + ")";
         // This text is added only once to the file.
-        string path = @"E:\MyTest.txt";
+        string path = @"E:\ITB.txt";
         if (!File.Exists(path))
         {
             // Create a file to write to.

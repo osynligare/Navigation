@@ -21,8 +21,17 @@
     <div>
         <uc1:GoogleMapForASPNet ID="GoogleMapForASPNet1" runat="server" />
     </div>
+		<asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>
+            Jumlah jarak: <asp:Label ID="lblPushpin1" runat="server" Text="" ForeColor="Blue" Font-Bold=true></asp:Label><br />
+        </ContentTemplate>
+        </asp:UpdatePanel>
+		<asp:UpdatePanel ID="UpdatePanel2" runat="server">
+        <ContentTemplate>
+            Path: <asp:Label ID="Label2" runat="server" Text="" ForeColor="Blue" Font-Bold=true></asp:Label><br />
+        </ContentTemplate>
+        </asp:UpdatePanel>
     </form>
-        <h3><a href="Default.aspx">Return to Samples Index</a></h3>
 
 </body>
 </html>
